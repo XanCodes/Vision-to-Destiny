@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision to Destiny | About</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="style.js"></script>
+    <!-- Decor -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contact-landing">
+        <header style="position: relative;">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><h1>VD</h1></a>
+                </div>
+                <div class="nav-menu">
+                    <i class="fas fa-bars" id="mobile"></i>
+                    <ul class="menu-list">
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="services.html">
+                            <li>Services</li>
+                        </a>
+                        <a href="contact.html">
+                            <li class="active">Contact Us</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="vtd-cot">
+            <div class="form">
+                <form action="connect.php" method="POST" id="myForm">
+                    <div class="form-flex">
+                        <input type="text" placeholder="Name *"  name="name" id="name" required>
+                        <input type="email" name="email" id="email" placeholder="Email *" required>
+                    </div>
+                    <div class="form-line">
+                        <input type="tel" name="number" id="number" placeholder="Phone Number *" required>
+                    </div>
+                    <div class="form-line">
+                        <input type="text" name="occupation" id="occupation" placeholder="Occupation *" required>
+                    </div>
+                    <div class="form-line">
+                        <input type="text" name="org" id="org" placeholder="Organization">
+                    </div>
+                    <div class="form-line">
+                        <textarea name="comment" id="comment" placeholder="Comment" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Send" name="submit" id="submit">
+                </form>
+            </div>
+        </div> 
+    </div>
+
+
+</body>
+</html>
